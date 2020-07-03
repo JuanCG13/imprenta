@@ -437,8 +437,8 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	position:fixed;
 	width:73px;
 	height:73px;
-	bottom:40px;
-	right:40px;
+	bottom:25px;
+	right:25px;
 	background-color:#fff;
 	color:#EB233C;
 	border-radius:50px;
