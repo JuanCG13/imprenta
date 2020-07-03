@@ -457,7 +457,7 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 }
 
 .my-float{
-	margin-top: 9px;
+	margin-top: 13%;
 	width: 100%;
 	height: 100%;
 }
