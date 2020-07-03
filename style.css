@@ -444,7 +444,7 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	border-radius:50px;
 	text-align:center;
   	font-size:30px;
-	box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.658);
+	box-shadow: 2px 2px 7px rgba(85, 85, 85, 0.658);
   	z-index:100;
 }
 
