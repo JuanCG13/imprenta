@@ -432,3 +432,27 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	padding: 50px 0px;
 }
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#fff;
+	color:#EB233C;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.658);
+  	z-index:100;
+}
+
+.float:hover{
+	background-color:#EB233C;
+	color:#FFF;
+}
+
+.my-float{
+	margin-top:16px;
+}
