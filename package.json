@@ -1,0 +1,23 @@
+{
+  "name": "imprenta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCG13/imprenta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanCG13/imprenta/issues"
+  },
+  "homepage": "https://github.com/JuanCG13/imprenta#readme",
+  "dependencies": {
+    "prismic-dom": "^2.2.3",
+    "prismic-javascript": "^3.0.1"
+  }
+}

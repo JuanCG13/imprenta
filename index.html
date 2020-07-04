@@ -250,8 +250,8 @@
             <p>123, Ubicacion<br>
               Calle<br>
               Ciudad<br>
-              <div class="email"><i class="fa fa-at"></i>direccionEmail@email.com<br>
-                <i class="fa fa-mobile"></i>+999 999 999</div>
+            <div class="email"><i class="fa fa-at"></i>direccionEmail@email.com<br>
+              <i class="fa fa-mobile"></i>+999 999 999</div>
             </p>
           </div>
         </div>
@@ -277,8 +277,7 @@
       </div>
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://wa.link/ikguxq"
-      class="float" target="_blank">
+    <a href="https://wa.link/ikguxq" class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
     </a>
   </footer>
@@ -288,9 +287,9 @@
   <script type="text/javascript" src="js/jquery.countTo.js"></script>
   <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
   <script>
-    $(document).ready(function () {
+    $( document ).ready( function () {
 
-      $("#owl-demo").owlCarousel({
+      $( "#owl-demo" ).owlCarousel( {
 
         navigation: false, // Show next and prev buttons
         slideSpeed: 500,
@@ -305,36 +304,36 @@
         // itemsTablet: false,
         // itemsMobile : false
 
-      });
+      } );
 
-    });
+    } );
 
     /*$('.timer').each(count);*/
-    jQuery(function ($) {
+    jQuery( function ( $ ) {
       // custom formatting example
-      $('.timer').data('countToOptions', {
-        formatter: function (value, options) {
-          return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+      $( '.timer' ).data( 'countToOptions', {
+        formatter: function ( value, options ) {
+          return value.toFixed( options.decimals ).replace( /\B(?=(?:\d{3})+(?!\d))/g, ',' );
         }
-      });
+      } );
 
 
       // start all the timers
-      $('#testimonials').waypoint(function () {
-        $('.timer').each(count);
-      });
+      $( '#testimonials' ).waypoint( function () {
+        $( '.timer' ).each( count );
+      } );
 
-      function count(options) {
-        var $this = $(this);
-        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-        $this.countTo(options);
+      function count( options ) {
+        var $this = $( this );
+        options = $.extend( {}, options || {}, $this.data( 'countToOptions' ) || {} );
+        $this.countTo( options );
       }
-    });
+    } );
 
 
-    $(document).ready(function () {
+    $( document ).ready( function () {
       // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+      $( ".navbar a, footer a[href='#myPage']" ).on( 'click', function ( event ) {
 
         // Prevent default anchor click behavior
         event.preventDefault();
@@ -344,16 +343,17 @@
 
         // Using jQuery's animate() method to add smooth page scroll
         // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
+        $( 'html, body' ).animate( {
+          scrollTop: $( hash ).offset().top
         }, 900, function () {
 
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
-        });
-      });
-    })
+        } );
+      } );
+    } )
   </script>
+  <script src="index.js"></script>
 </body>
 
 </html>
