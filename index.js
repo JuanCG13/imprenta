@@ -1,6 +1,6 @@
 var Prismic = require( 'prismic-javascript' );
 
-var apiEndpoint = "https://elancla.cdn.prismic.io/api/v2";
+var apiEndpoint = "https://imprenta.cdn.prismic.io/api/v2";
 
 Prismic.getApi( apiEndpoint, { req: req } ).then( function ( api ) {
     return api.query( "" ); // An empty query will return all the documents

@@ -1,0 +1,9 @@
+extends ./layout.pug
+
+	
+block body
+  div.welcome
+    img(src=document.data.imagen.url, class='star')
+    != PrismicDOM.RichText.asHtml(document.data.titulo, ctx.linkResolver)
+    //- != PrismicDOM.RichText.asHtml(document.data.articles_to_link, ctx.linkResolver)
+
